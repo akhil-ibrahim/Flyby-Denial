@@ -20,13 +20,10 @@ Given a set of protein sequences, the pipeline will:
 There are two ways to get your protein sequences into the notebook:
 
 ### Upload a FASTA file
-Upload a `.fasta` file directly in Colab.
+Upload multiple `.fasta` files directly in Colab.
 
 ### Fetch sequences
-You can also retrieve sequences based on:
-- organism name  
-- protein function  
-- accession IDs  
+Copy and paste multiple sequences 
 
 ---
 
@@ -49,8 +46,8 @@ This gives a quick overview of the biochemical characteristics of each sequence.
 Each protein is compared with every other protein in the dataset:
 
 - pairwise alignments are computed  
-- similarity (or identity) scores are generated  
-- results are stored as a matrix  
+- similarity scores are generated  
+- results are stored in a table 
 
 This helps identify which proteins are more closely related.
 
@@ -80,7 +77,7 @@ These are typically shown as dendrograms.
 The notebook generates:
 
 - tables of physicochemical properties  
-- a sequence similarity matrix  
+- a sequence similarity table  
 - clustering visualizations (dendrograms)  
 
 All results are displayed in Colab and can be saved.
