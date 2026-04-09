@@ -35,7 +35,6 @@ For each protein, the pipeline calculates:
 - molecular weight  
 - amino acid composition  
 - isoelectric point (pI)  
-- net charge 
 
 This gives a quick overview of the biochemical characteristics of each sequence.
 
