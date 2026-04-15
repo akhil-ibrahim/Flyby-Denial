@@ -4,7 +4,9 @@ title: Home
 nav_order: 1
 ---
 
-# Protein Comparison Pipeline
+# Flyby-Denial Presents: Protein Comparison Pipeline
+
+![Artemis II Crew](https://www.nasa.gov/wp-content/uploads/2023/04/artemis-ii-crew-photo-nhq202304030010.jpg)
 
 A bioinformatics pipeline built in Google Colab for analyzing and comparing protein sequences. Designed to be straightforward to use and modify, making it accessible for students and researchers exploring protein analysis for the first time.
 
