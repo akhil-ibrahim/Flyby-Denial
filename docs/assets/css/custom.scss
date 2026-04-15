@@ -3,10 +3,24 @@
 @import "{{ site.remote_theme }}";
 
 body {
-    background-color: #0d1117; /* Deep space black/blue */
-    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Subtle star pattern */
+    /* Deep space midnight blue */
+    background-color: #050a14 !important;
+    /* Subtle star pattern overlay */
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    color: #e6edf3;
 }
 
+/* Make the sidebar darker to blend in */
 .side-bar {
-    background-color: #161b22;
+    background-color: #0a0f1a !important;
+    border-right: 1px solid #30363d;
+}
+
+/* Ensure links are readable against the dark background */
+.nav-list-link {
+    color: #58a6ff !important;
+}
+
+.nav-list-link:hover {
+    background-color: #161b22 !important;
 }
