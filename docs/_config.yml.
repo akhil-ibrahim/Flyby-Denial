@@ -1,0 +1,8 @@
+title: Flyby-Denial
+description: Bioinformatics Pipeline for BIL552
+theme: jekyll-theme-just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+# This points the site to your specific repo
+url: "https://luquelab.github.io"
+baseurl: "/Flyby-Denial"
