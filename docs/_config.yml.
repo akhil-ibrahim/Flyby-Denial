@@ -1,8 +1,14 @@
 title: Flyby-Denial
 description: Bioinformatics Pipeline for BIL552
-theme: jekyll-theme-just-the-docs
 remote_theme: just-the-docs/just-the-docs
 
-# This points the site to your specific repo
+# Color scheme for Dark Mode
+color_scheme: dark
+
+# Critical URL settings
 url: "https://luquelab.github.io"
 baseurl: "/Flyby-Denial"
+
+# This helps the sidebar recognize your files
+nav_exclude:
+  - README.md
