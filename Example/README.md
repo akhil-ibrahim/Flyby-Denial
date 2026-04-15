@@ -6,7 +6,7 @@ The `example` folder contains two subfolders:
   
 ---
 
-## Example Test Run
+## Input
 
 Follow these steps as an example input for a test run:
 
@@ -37,7 +37,7 @@ Follow these steps as an example input for a test run:
 
 ---
 
-## Exported Results
+## Output
 
 After running the **Export and Download Results** cell, Google Colab will prompt you to download a `.zip` file containing all input and output files. These can be used as a report, including:
 
