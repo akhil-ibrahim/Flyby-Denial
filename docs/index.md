@@ -1,25 +1,27 @@
 ---
-title: Home
 layout: default
+title: Home
 nav_order: 1
 ---
 
-![Artemis II crew](https://images-assets.nasa.gov/image/AFRC2026-0064-13/AFRC2026-0064-13~large.jpg)
+# Protein Comparison Pipeline
 
-## Protein Analysis Pipeline (Google Colab)
+A bioinformatics pipeline built in Google Colab for analyzing and comparing protein sequences. Designed to be straightforward to use and modify, making it accessible for students and researchers exploring protein analysis for the first time.
 
-This project is a simple bioinformatics pipeline built in Google Colab for analyzing and comparing protein sequences. It’s designed to be easy to run and modify, especially for students or anyone getting started with protein analysis.
+The pipeline accepts protein sequences either as uploaded FASTA files or as pasted input, then computes physicochemical properties, pairwise sequence similarity, and clustering visualizations to reveal how your proteins relate to one another.
 
-## Repository
+---
 
-- GitHub: [Flyby-Denial](https://github.com/akhil-ibrahim/Flyby-Denial)
-
-## What this does
+## Pipeline Overview
 
 Given a set of protein sequences, the pipeline will:
 
-- Read in your data (from a FASTA file or by fetching sequences)
-- Calculate basic physicochemical properties
-- Compare sequences to each other
-- Show how the proteins are related using clustering
+- **Calculate physicochemical properties** — sequence length, molecular weight, amino acid composition, and isoelectric point (pI) for each protein
+- **Perform pairwise sequence comparisons** — align every protein against every other and generate a similarity score table
+- **Visualize relationships** — cluster proteins by physicochemical features, sequence similarity, or both, displayed as dendrograms
 
+---
+
+## Try the Workflow Yourself
+
+[Open on GitHub — Flyby-Denial](https://github.com/luquelab/Flyby-Denial)
