@@ -1,11 +1,28 @@
-Use the following input as an example for the test run
-We first upload the ALK_mice.faa file under Input data/Option 1: Upload a FASTA file, which will store 3 protein sequences in a list
-We then fetch the protein sequence under Input data/Option 3: Fetch from NCBI by Organism and Select FASTA files
-- Input Organism: Homo sapiens
-- Max Proteins: 100
-- Iput Filter Description: NADH and Select 'Apply Filter'
-- Select '3263820393 - NADH dehydrogenase subunit 6 (mitochondrion)' and Select 'Confirm Selection'
-- Select '3263820392 - NADH dehydrogenase subunit 5 (mitochondrion)' and Select 'Confirm Selection'
-- Select '3263820391 - NADH dehydrogenase subunit 4 (mitochondrion)' and Select 'Confirm Selection'
-We should have a total of 6 protein sequences (3 from Option 1 and 3 from Option 3) stored in the same list
+### Example Test Run
 
+Use the following steps as an example input for a test run:
+
+1. **Upload FASTA File**
+   - Go to `Input Data → Option 1: Upload a FASTA file`
+   - Upload `ALK_mice.faa`
+   - This will store **3 protein sequences** in the list
+
+2. **Fetch from NCBI**
+   - Go to `Input Data → Option 3: Fetch from NCBI by Organism`
+   - Set the following parameters:
+     - **Organism:** Homo sapiens
+     - **Max Proteins:** 100
+     - **Filter Description:** NADH
+   - Click **Apply Filter**
+
+3. **Select Protein Sequences**
+   - Select and confirm the following entries:
+     - `3263820393 - NADH dehydrogenase subunit 6 (mitochondrion)`
+     - `3263820392 - NADH dehydrogenase subunit 5 (mitochondrion)`
+     - `3263820391 - NADH dehydrogenase subunit 4 (mitochondrion)`
+
+4. **Final Result**
+   - You should now have a total of **6 protein sequences**:
+     - 3 from the uploaded FASTA file
+     - 3 from NCBI
+   - All sequences will be stored in the same list
