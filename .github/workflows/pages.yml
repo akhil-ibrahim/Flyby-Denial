@@ -21,18 +21,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3"
-          bundler-cache: true
-
       - name: Create Gemfile for docs build
         run: |
           cat > Gemfile <<'EOF'
           source "https://rubygems.org"
           gem "github-pages", group: :jekyll_plugins
           EOF
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
 
       - name: Build site (from docs/)
         run: bundle exec jekyll build --source docs --destination _site
