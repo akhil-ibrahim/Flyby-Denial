@@ -3,6 +3,8 @@
 The `example` folder contains two subfolders:
 - **Input**
 - **Output**
+  
+---
 
 ## Example Test Run
 
@@ -32,3 +34,16 @@ Follow these steps as an example input for a test run:
   - 3 from the uploaded FASTA file
   - 3 from NCBI
 - All sequences will be stored in the same list
+
+---
+
+## Exported Results
+
+After running the **Export and Download Results** cell, Google Colab will prompt you to download a `.zip` file containing all input and output files. These can be used as a report, including:
+
+- `input_protein_sequences.fasta`
+- `combined_dendrogram.png`
+- `physicochemical_dendrogram.png`
+- `physicochemical_properties.csv`
+- `sequence_similarity_dendrogram.png`
+- `sequence_similarity.csv`
