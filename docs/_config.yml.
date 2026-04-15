@@ -2,18 +2,13 @@ title: Flyby-Denial
 description: Bioinformatics Pipeline for BIL552
 remote_theme: just-the-docs/just-the-docs
 
-# Enable Dark Mode
+# This tells Jekyll to look at your custom.scss
 color_scheme: dark
 
-# Critical for GitHub Pages sub-paths
 url: "https://luquelab.github.io"
 baseurl: "/Flyby-Denial"
 
-# This forces the sidebar to refresh its file list
+# Navigation Logic
+search_enabled: true
 nav_exclude:
   - README.md
-  - archive/*
-
-# Sidebar behavior
-search_enabled: true
-heading_anchors: true
