@@ -29,7 +29,7 @@ All results are displayed in Colab and can be saved.
 
 ## How to run
 
-1. Open the notebook in [Google Colab]([url](https://colab.research.google.com/drive/1ef-Mk7o3n1wzT9mIWB3Iiy2EDdMGhntP#scrollTo=64f99ca2)) 
+1. Open the notebook in [Google Colab](https://colab.research.google.com/drive/1ef-Mk7o3n1wzT9mIWB3Iiy2EDdMGhntP#scrollTo=64f99ca2)
 2. Run the setup cells  
 3. Upload your FASTA file or fetch sequences  
 4. Run the remaining cells in order  
