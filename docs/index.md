@@ -4,6 +4,8 @@ layout: default
 nav_order: 1
 ---
 
+![Artemis II crew](https://images-assets.nasa.gov/image/AFRC2026-0064-13/AFRC2026-0064-13~large.jpg)
+
 ## Protein Analysis Pipeline (Google Colab)
 
 This project is a simple bioinformatics pipeline built in Google Colab for analyzing and comparing protein sequences. It’s designed to be easy to run and modify, especially for students or anyone getting started with protein analysis.

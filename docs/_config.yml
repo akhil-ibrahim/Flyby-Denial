@@ -5,8 +5,10 @@ theme: null
 # Use Just the Docs theme from GitHub (no local theme files needed).
 remote_theme: just-the-docs/just-the-docs
 
-url: ""
-baseurl: ""
+# GitHub Pages (project site) settings
+url: "https://akhil-ibrahim.github.io"
+baseurl: "/Flyby-Denial"
+repository: "akhil-ibrahim/Flyby-Denial"
 
 # Top navigation / site features
 search_enabled: true
@@ -16,5 +18,5 @@ aux_links:
 aux_links_new_tab: true
 
 # Visual defaults (safe, minimal)
-color_scheme: light
+color_scheme: dark
 
