@@ -2,26 +2,28 @@
 layout: default
 title: Home
 nav_order: 1
-permalink: /
 ---
 
-# Flyby-Denial Pipeline
+# Flyby-Denial Presents: Protein Comparison Pipeline
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luquelab/Flyby-Denial/blob/main/notebooks/flyby_denial.ipynb)
+![Artemis II Crew]({{ '/assets/images/Artemis.webp' | relative_url }})
 
-## Project Description
+A bioinformatics pipeline built in Google Colab for analyzing and comparing protein sequences. Designed to be straightforward to use and modify, making it accessible for students and researchers exploring protein analysis for the first time.
 
-Flyby-Denial is a bioinformatics pipeline developed for the BIL552 course. It is designed to analyze viral genomic sequences, construct phylogenetic relationships, and visualize evolutionary distance through automated dendrogram generation.
+The pipeline accepts protein sequences either as uploaded FASTA files or as pasted input, then computes physicochemical properties, pairwise sequence similarity, and clustering visualizations to reveal how your proteins relate to one another.
 
-The pipeline accepts FASTA-formatted input sequences and produces publication-quality dendrograms as output, enabling rapid comparative analysis of viral isolates.
+---
 
-## Key Features
+## Pipeline Overview
 
-- Accepts multi-sequence FASTA files as input
-- Performs pairwise sequence alignment and distance calculation
-- Generates hierarchical clustering dendrograms
-- Runs entirely in Google Colab — no local installation required
+Given a set of protein sequences, the pipeline will:
 
-## Quick Start
+- **Calculate physicochemical properties** — sequence length, molecular weight, amino acid composition, and isoelectric point (pI) for each protein
+- **Perform pairwise sequence comparisons** — align every protein against every other and generate a similarity score table
+- **Visualize relationships** — cluster proteins by physicochemical features, sequence similarity, or both, displayed as dendrograms
 
-Click the **Open in Colab** badge above to launch the pipeline in your browser. Upload your FASTA file when prompted and follow the notebook instructions.
+---
+
+## Try the Workflow Yourself
+
+[Open on GitHub — Flyby-Denial](https://github.com/luquelab/Flyby-Denial)
