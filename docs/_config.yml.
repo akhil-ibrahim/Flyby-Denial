@@ -1,22 +1,22 @@
-# Site Configuration for Just the Docs theme
-title: "Flyby-Denial"
-description: "BIL552 Bioinformatics Pipeline Documentation"
-baseurl: "/Flyby-Denial"
-url: "https://luquelab.github.io"
+title: Flyby Denial Docs
+description: Documentation for the Protein Analysis Pipeline.
+theme: null
 
+# Use Just the Docs theme from GitHub (no local theme files needed).
 remote_theme: just-the-docs/just-the-docs
 
+# GitHub Pages (project site) settings
+url: "https://luquelab.github.io"
+baseurl: "/Flyby-Denial"
+repository: "luquelab/Flyby-Denial"
+
+# Top navigation / site features
+search_enabled: true
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/luquelab/Flyby-Denial"
+aux_links_new_tab: true
+
+# Visual defaults (safe, minimal)
 color_scheme: dark
 
-# Aux links in the header (optional, remove if unwanted)
-aux_links:
-  "View on GitHub":
-    - "https://github.com/luquelab/Flyby-Denial"
-
-# Footer content
-footer_content: "BIL552 Bioinformatics &mdash; Flyby-Denial Pipeline Documentation."
-
-# Plugins required by GitHub Pages
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
