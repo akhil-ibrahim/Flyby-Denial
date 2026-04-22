@@ -6,15 +6,15 @@ theme: null
 remote_theme: just-the-docs/just-the-docs
 
 # GitHub Pages (project site) settings
-url: "https://akhil-ibrahim.github.io"
+url: "https://luquelab.github.io"
 baseurl: "/Flyby-Denial"
-repository: "akhil-ibrahim/Flyby-Denial"
+repository: "luquelab/Flyby-Denial"
 
 # Top navigation / site features
 search_enabled: true
 aux_links:
   "GitHub Repository":
-    - "https://github.com/akhil-ibrahim/Flyby-Denial"
+    - "https://github.com/luquelab/Flyby-Denial"
 aux_links_new_tab: true
 
 # Visual defaults (safe, minimal)
